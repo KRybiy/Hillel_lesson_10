@@ -82,6 +82,10 @@ a {
   transition: scale 0.1s;
 }
 
+.navbar__link__active {
+  color: var(--color-blue);
+}
+
 .navbar__link:hover {
   color: var(--color-blue);
   transform: scale(1.1);
